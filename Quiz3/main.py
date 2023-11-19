@@ -11,5 +11,9 @@ if __name__ == "__main__":
     p.write()
     p.write()
     print(p.check_ink())
+    p.refill()
 
+    for i in range(0,10):
+        p.write()
+    print(p.check_ink())
 
