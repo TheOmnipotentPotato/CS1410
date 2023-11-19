@@ -1,0 +1,6 @@
+1410 - Quiz 13
+
+Create text based Instagram and Tiktok clones
+  - Create a post
+  - print post
+  - assignemt was to use a display funtion but I just overrided __repr__

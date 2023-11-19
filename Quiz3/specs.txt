@@ -1,0 +1,39 @@
+1410 - Quiz 3
+
+---------------------------------------------------------Part 1-------------------------------------------------------------------------
+
+>>import pen
+>>
+>>zebra = pen.Pen()
+>>zebra.write()
+>>zebra.write()
+>>print(zebra.check_ink())
+(will print)
+[###..]
+
+
+---------------------------------------------------------Part 2-------------------------------------------------------------------------
+
+Create an object called Pen
+  - Initallize with ink of 5
+  - Method write
+    - subtract 1 from current ink amount
+    - no spec for overflowing ink value if it becomes negative
+      - build such that negative values don't break function
+  - Method refill
+    - set ink to 5 again
+
+  - Method get_ink
+    - Return string representing the state of the 5 ink slots
+    - Ex:
+      >> pen.get_ink()
+      [#####]
+      (ink of 5 at init)
+      >> pen.write()
+      >> pen.write()
+      >> pen.get_ink()
+      [###..]
+      (ink of 3 after subraction)
+
+Create wrapper function to create pen objects
+

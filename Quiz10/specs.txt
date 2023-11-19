@@ -1,0 +1,25 @@
+1410 - Quiz 10
+
+-----------------------------------------------------------Part 1-----------------------------------------------------------------------
+
+>>import forggerlib
+>>objs = []
+>>objs.append(froggerlib.Frog(3 ,4))
+>>objs.append(froggerlib.Car(4, 3))
+>>objs.append(froggerlib.Log(2, 4))
+>> for obj in objs:
+    obj.draw()
+
+"I'm hopping at (3,4)"
+"I'm speeding at (4,3)"
+"I'm floating at (2,4)"
+
+-----------------------------------------------------------Part 2-----------------------------------------------------------------------Derive a Lunch Class from Appointment Class
+  - Always at 12
+  - Let you pick resturant name
+  - Inherit from Appointment
+
+Derive Doctor Class
+  - Always named Doctor
+  - Pick time
+  - inherit from Appointment
